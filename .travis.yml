@@ -3,10 +3,10 @@ jdk:
 - openjdk8
 
 addons:
-	sonarcloud:
-		organization: "dianaland97"
-		token:
-			secure: travis encrypt c301159931d1d50d8b054622b6aea48bb6c34284
+sonarcloud:
+organization: "dianaland97"
+token:
+secure: travis encrypt c301159931d1d50d8b054622b6aea48bb6c34284
 script: 
 - ant build 
 - sonar-scanner
