@@ -23,7 +23,7 @@ public class Main {
 		// TODO Auto-generated method stub
 		
 		System.out.println("ciao mondo");
-		//yoh nigga!
+		
 
 	}
 
