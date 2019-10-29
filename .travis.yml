@@ -6,7 +6,6 @@ jdk:
 addons:
  sonarcloud:
   organization: "dianaland97"
-  sonar.login: travis encrypt 20db8d7323d5e71a1dba33c997a003b836243219
   token:
    secure: travis encrypt 20db8d7323d5e71a1dba33c997a003b836243219
 script: 
