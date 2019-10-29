@@ -2,12 +2,12 @@ language: java
 jdk:
 - openjdk8
 
-
+dist: trusty
 addons:
  sonarcloud:
   organization: "dianaland97"
   token:
-   secure: "travis encrypt 20db8d7323d5e71a1dba33c997a003b836243219"
+   secure: "travis encrypt 38f118343940c56918574a006874f99e423e55d2"
 script: 
 - ant build 
 - sonar-scanner
