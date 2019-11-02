@@ -5,7 +5,7 @@ jdk:
 addons:
  sonarcloud:
   organization: "dianaland97"
-  token: "travis encrypt 83be62a413c3bc2302eb6d2bf43fa9c801c4e6a6"
+  token: "83be62a413c3bc2302eb6d2bf43fa9c801c4e6a6"
 script: 
 - ant build 
 - sonar-scanner
